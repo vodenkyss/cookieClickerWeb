@@ -105,3 +105,25 @@ aside {
 .upgrade button:hover {
     background-color: #a9561b;
 }
+
+@media (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    aside {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    img {
+        width: 180px;
+    }
+}
